@@ -20,6 +20,10 @@ main {
     margin: 0px auto;
 }
 
+.black{
+    color: #0D1321;
+}
+
 /* Nav styles */
 
 
@@ -128,23 +132,21 @@ main {
     border-radius: 08px;
     background: rgba(255, 76, 30, 0.05);
     padding: 40px;
-    width: 364px;
-    height: 200px;
+    
 }
+
 .blue {
     border-radius: 08px;
     background: rgba(0, 76, 232, 0.05);
     padding: 40px;
-    width: 364px;
-    height: 200px;
+    
 }
 
 .yellow {
     border-radius: 08px;
     background: rgba(255, 223, 0, 0.05);
     padding: 40px;
-    width: 364px;
-    height: 200px;
+    
 }
 
 .support {
@@ -173,4 +175,24 @@ main {
     background-color: white;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
+}
+
+/* Footer style */
+
+footer {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul {
+    display: flex;
+    gap: 25px;
 }
