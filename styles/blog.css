@@ -96,5 +96,16 @@ main {
     border: 1px solid rgb(13, 19, 33);
 }
 
+/* My insp section */
 
+.my-insp {
+    text-align: center;
+    margin-top: 48px;
+}
 
+.video {
+    margin-top: 48px;
+    width: 1076px;
+    height: 550px;
+    border-radius: 20px;
+}
