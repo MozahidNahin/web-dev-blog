@@ -67,7 +67,7 @@ main {
     text-align: center;
     background-color: #0d132105;
     padding: 32px 16px;
-    border-radius: 12px;
+    border-radius: 08px;
 }
 
 .purpose {
@@ -107,7 +107,7 @@ main {
     margin-top: 48px;
     width: 1076px;
     height: 550px;
-    border-radius: 20px;
+    border-radius: 08px;
 }
 
 /* Current target section */
@@ -145,4 +145,32 @@ main {
     padding: 40px;
     width: 364px;
     height: 200px;
+}
+
+.support {
+    margin-top: 48px;
+    background-image: url('/assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 64px 48px;
+    border-radius: 8px;
+}
+
+.suggest-box {
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+}
+
+.btn-submit {
+    padding: 17px 24px;
+    height: 57px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
 }
