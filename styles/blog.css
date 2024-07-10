@@ -56,7 +56,6 @@ main {
 }
 
 .btn-contact {
-    color: white;
     background-color: #0D1321;
     font-weight: 600px;
     border-radius: 8px;
@@ -195,4 +194,9 @@ footer ul li {
 footer ul {
     display: flex;
     gap: 25px;
+}
+
+/* challenge part */
+html {
+    scroll-behavior: smooth;
 }
