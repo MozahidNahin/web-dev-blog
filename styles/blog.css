@@ -109,3 +109,40 @@ main {
     height: 550px;
     border-radius: 20px;
 }
+
+/* Current target section */
+
+.target {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.target-skills {
+    margin-top: 48px;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.orange {
+    border-radius: 08px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    width: 364px;
+    height: 200px;
+}
+.blue {
+    border-radius: 08px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    width: 364px;
+    height: 200px;
+}
+
+.yellow {
+    border-radius: 08px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    width: 364px;
+    height: 200px;
+}
