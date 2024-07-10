@@ -6,14 +6,22 @@
   font-style: normal;
 }
 
+h2 {
+    font-weight: bold;
+}
 
 p {
     color: #0D1321;
     font-size: 16px;
 }
 
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* Nav styles */
+
 
 .nav-title {
     display: flex;
@@ -28,6 +36,7 @@ p {
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
 }
+
 
 /* Banner styles */
 
@@ -49,3 +58,43 @@ p {
     border-radius: 8px;
     padding: 21px 24px;
 }
+
+
+/* Why web dev styles */
+
+.why-webdev {
+    margin-top: 74px;
+    text-align: center;
+    background-color: #0d132105;
+    padding: 32px 16px;
+    border-radius: 12px;
+}
+
+.purpose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+    background-color: #0d132105;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    gap: 100px;
+    position: static;
+    width: 850px;
+    height: 240px;
+}
+
+.btn-learn {
+    padding: 12px 20px;
+    background-color: white;
+    border: 1px solid rgb(13, 19, 33);
+}
+
+
+
